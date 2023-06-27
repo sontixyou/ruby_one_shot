@@ -1,13 +1,13 @@
 class Fruits
   def red
-    puts "りんご"
+    puts 'りんご'
   end
 end
 
 class Vegetables < Fruits
   def red
     super
-    puts "トマト"
+    puts 'トマト'
   end
 end
 
